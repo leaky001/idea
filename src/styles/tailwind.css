@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --bright-lavender: #b411ef;
+    --lavender-indigo: #a340e0;
+    --magnolia: #fbf0ff;
+    --violet: #631499;
+    --deep-violet: rgb(60, 9, 100);
+    --eerie-black: rgb(31, 31, 31);
+  }
+}
+
+@layer components {
+  .btn-primary {
+    @apply bg-bright-lavender hover:bg-lavender-indigo text-white font-medium py-2 px-4 rounded-xl;
+  }
+
+  .page-title {
+    @apply text-2xl sm:text-3xl font-bold text-violet mb-6;
+  }
+}
