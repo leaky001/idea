@@ -2,13 +2,13 @@ module.exports = {
   content: ['./src/**/*.{js,jsx,ts,tsx}'],
   theme: {
     extend: {
-      colors: {
-        'bright-lavender': '#B411EF',
-        'lavender-indigo': '#A340E0',
-        'magnolia': '#FBF0FF',
-        'violet': '#631499',
-        'deep-violet': 'rgb(60, 9, 100)',
-        'eerie-black': 'rgb(31, 31, 31)',
+     colors: {
+        magnolia: '#FBF0FF',        // Very light pastel background
+        lavender: '#B411EF',        // Bright Lavender for accents/buttons
+        violet: '#A340E0',          // Lavender Indigo for highlights
+        indigoLavender: '#D9B3F0',  // Soft lavender for hero sections (adjusted lighter for contrast)
+        deepViolet: '#631499',      // Dark Violet for headings, strong contrast text
+        eerieBlack: '#1F1F1F',      // Almost black for main body text
       },
     },
   },
